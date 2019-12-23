@@ -23,6 +23,7 @@ def parseD(url):
     # 商品图片和颜色的名字
     goodStyle = re.findall(pattern="goods_styles = (.*?)',", string=res.text)[0]
     info2 = goodStyle.replace(r'\x22','"').replace(r"\\\/",r'/').replace(r'\\','\\').replace('/\\','\\').replace("'",'')
+    print(info2)
     js2 = json.loads(info2) # 获取json格式的数据
     #print(js2)
 
