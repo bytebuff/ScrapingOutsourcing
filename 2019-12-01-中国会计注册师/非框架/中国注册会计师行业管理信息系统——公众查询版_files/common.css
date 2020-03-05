@@ -1,0 +1,165 @@
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+DIV {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+P {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+A {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+SPAN {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+A:link {
+	TEXT-DECORATION: none; COLOR: #4b70b2
+}
+A:visited {
+	TEXT-DECORATION: none; COLOR: #4b70b2
+}
+A:hover {
+	TEXT-DECORATION: underline; COLOR: #cc0000
+}
+A:active {
+	TEXT-DECORATION: underline; COLOR: red
+}
+.toptab {
+	BACKGROUND-IMAGE: url(../images/common/top-01.gif); BACKGROUND-REPEAT: repeat-x
+}
+.tabxz {
+	BACKGROUND-IMAGE: url(../images/common/top-xz.gif); BACKGROUND-REPEAT: repeat-x
+}
+.tabpage {
+	CURSOR: pointer; HEIGHT: 23px; VERTICAL-ALIGN: middle; LINE-HEIGHT: 23px
+}
+.funcbak {
+	BACKGROUND-IMAGE: url(../images/common/left-02.gif); BACKGROUND-REPEAT: repeat-x; COLOR: #ffffff; TEXT-ALIGN: center
+}
+.search_table {
+	BORDER-TOP: #cdcdcd 1px solid; BORDER-RIGHT: #cdcdcd 1px solid; BORDER-BOTTOM: #cdcdcd 1px solid; BORDER-LEFT: #cdcdcd 1px solid; BACKGROUND-COLOR: #fffaf7
+}
+.search_table .tdl {
+	TEXT-ALIGN: right; PADDING-RIGHT: 6px
+}
+.btn {
+	FONT-SIZE: 12px; CURSOR: hand; BORDER-TOP: #eb9057 1px solid; BORDER-RIGHT: #eb9057 1px solid; BACKGROUND-IMAGE: url(../images/common/btn.jpg); BACKGROUND-REPEAT: repeat-x; BORDER-BOTTOM: #eb9057 1px solid; COLOR: black; PADDING-TOP: 2px; PADDING-LEFT: 2px; BORDER-LEFT: #eb9057 1px solid; PADDING-RIGHT: 2px
+}
+.btn1 {
+	FONT-SIZE: 12px; CURSOR: hand; BORDER-TOP: #7b9ebd 1px solid; BORDER-RIGHT: #7b9ebd 1px solid; BORDER-BOTTOM: #7b9ebd 1px solid; COLOR: black; PADDING-TOP: 2px; PADDING-LEFT: 2px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); BORDER-LEFT: #7b9ebd 1px solid; PADDING-RIGHT: 2px
+}
+.tabbak {
+	BACKGROUND-COLOR: #fffdef
+}
+.detail_table {
+	BORDER-TOP: #99c9cf 1px solid; BORDER-RIGHT: #99c9cf 1px solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #99c9cf 1px solid; BORDER-LEFT: #99c9cf 1px solid
+}
+.detail_table TD {
+	FONT-SIZE: 12px; BORDER-TOP: #99c9cf 1px solid; BORDER-RIGHT: #99c9cf 1px solid; BORDER-BOTTOM: #99c9cf 1px solid; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 2px; BORDER-LEFT: #99c9cf 1px solid; PADDING-RIGHT: 2px
+}
+.detail_table .tdl {
+	TEXT-ALIGN: right; BACKGROUND-COLOR: #dcdcdc
+}
+.detail_table .tdl_cen {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #dcdcdc
+}
+.detail_table .td_left {
+	TEXT-ALIGN: left; BACKGROUND-COLOR: #e4f4fe
+}
+.detail_table .td_left2 {
+	TEXT-ALIGN: left; PADDING-LEFT: 20px; BACKGROUND-COLOR: #e4f4fe
+}
+.detail_table TH {
+	FONT-SIZE: 12px; BORDER-TOP: #cdcdcd 1px solid; HEIGHT: 25px; BORDER-RIGHT: #cdcdcd 1px solid; BORDER-BOTTOM: #cdcdcd 1px solid; FONT-WEIGHT: normal; TEXT-ALIGN: center; BORDER-LEFT: #cdcdcd 1px solid; BACKGROUND-COLOR: #d5f3f7
+}
+.detail_table .table_header {
+	BORDER-TOP: #c9c9c9 1px solid; HEIGHT: 24px; BORDER-RIGHT: #c9c9c9 1px solid; BACKGROUND: url(../images/zsmng/table_header.gif) repeat-x; BORDER-BOTTOM: #c9c9c9 1px solid; COLOR: #111111; TEXT-ALIGN: left; FONT: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; BORDER-LEFT: #c9c9c9 1px solid
+}
+.report_table {
+	BORDER-TOP: #6d88b7 0.9pt solid; BORDER-RIGHT: #6d88b7 0.9pt solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #6d88b7 0.9pt solid; BORDER-LEFT: #6d88b7 0.9pt solid
+}
+.report_table TD {
+	BORDER-TOP: #6d88b7 1px solid; HEIGHT: 22px; BORDER-RIGHT: #6d88b7 1px solid; BORDER-BOTTOM: #6d88b7 1px solid; BORDER-LEFT: #6d88b7 1px solid
+}
+.report_table A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: "宋体"; COLOR: #0a33ca
+}
+.report_table A:hover {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline; FONT-FAMILY: "宋体"; COLOR: #0a33ca
+}
+.report_table_header {
+	HEIGHT: 25px; TEXT-ALIGN: center; PADDING-TOP: 2px; BACKGROUND-COLOR: #c2dfff
+}
+.reporttable_leftalign {
+	HEIGHT: 22px; TEXT-ALIGN: left; PADDING-TOP: 0px; BACKGROUND-COLOR: #bedfff
+}
+.report_table_rightalign {
+	HEIGHT: 22px; PADDING-BOTTOM: 3px; TEXT-ALIGN: right; PADDING-TOP: 4px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px; BACKGROUND-COLOR: #bedfff
+}
+TD.align_center {
+	TEXT-ALIGN: center
+}
+TD.align_center2 {
+	WORD-WRAP: break-word; WORD-BREAK: break-all; TEXT-ALIGN: center
+}
+TD.align_right {
+	TEXT-ALIGN: right
+}
+TD.align_right2 {
+	PADDING-BOTTOM: 0px; TEXT-ALIGN: right; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 8px
+}
+TD.align_left {
+	TEXT-ALIGN: left
+}
+TD.align_left1 {
+	PADDING-BOTTOM: 1px; TEXT-ALIGN: left; PADDING-TOP: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px
+}
+TD.align_left2 {
+	PADDING-BOTTOM: 2px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px
+}
+TD.alignleft_changeline {
+	WORD-WRAP: break-word; WORD-BREAK: break-all; TEXT-ALIGN: left
+}
+TD.alignleft2_changline {
+	WORD-WRAP: break-word; WORD-BREAK: break-all; PADDING-BOTTOM: 2px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: 12px; PADDING-RIGHT: 12px
+}
+.linkstyle {
+	TEXT-DECORATION: none; COLOR: blue
+}
+.table_header_noBj {
+	BORDER-TOP: #c9c9c9 1px solid; BORDER-RIGHT: #c9c9c9 1px solid; BORDER-BOTTOM: #c9c9c9 1px solid; COLOR: #111111; TEXT-ALIGN: left; FONT: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; BORDER-LEFT: #c9c9c9 1px solid
+}
+.pageDiv {
+	FONT-SIZE: 12px; HEIGHT: 23px; BACKGROUND: url(../../images/body/page-bg.gif); MARGIN-TOP: 12px; PADDING-TOP: 2px; DISPLAY: inline
+}
+#leftctrl {
+	HEIGHT: 25px; FLOAT: left; LINE-HEIGHT: 25px
+}
+#rightctrl {
+	HEIGHT: 25px; LINE-HEIGHT: 25px
+}
+#rightctrl A {
+	COLOR: #000
+}
+#rightctrl A:hover {
+	TEXT-DECORATION: underline; COLOR: #000
+}
+#pageCtr_basePageDiv {
+	FONT-SIZE: 12px; HEIGHT: 25px; PADDING-TOP: 6px
+}
+#pageCtr_expandPageDiv_dis {
+	FONT-SIZE: 12px; HEIGHT: 25px
+}
+.expandPage {
+	CURSOR: pointer; HEIGHT: 16px; WIDTH: 21px; BACKGROUND-IMAGE: url(../../images/icon/open.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.retirePage {
+	CURSOR: pointer; HEIGHT: 16px; WIDTH: 21px; BACKGROUND-IMAGE: url(../../images/icon/close.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.split_bak {
+	HEIGHT: 20px; BACKGROUND-IMAGE: url(../images/common/top-01.gif); BACKGROUND-REPEAT: repeat-x; COLOR: #111111; TEXT-ALIGN: left; FONT: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif
+}

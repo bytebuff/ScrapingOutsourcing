@@ -1,0 +1,72 @@
+DIV {
+	FONT-SIZE: 13px; FONT-FAMILY: "宋体"
+}
+P {
+	FONT-SIZE: 13px; FONT-FAMILY: "宋体"
+}
+TD {
+	FONT-SIZE: 13px; FONT-FAMILY: "宋体"
+}
+A {
+	FONT-SIZE: 13px; FONT-FAMILY: "宋体"
+}
+A:link {
+	TEXT-DECORATION: none; COLOR: #6a6a6a
+}
+A:visited {
+	TEXT-DECORATION: none; COLOR: #f16d29
+}
+A:hover {
+	TEXT-DECORATION: none; COLOR: #f16d29
+}
+A.logn {
+	TEXT-DECORATION: none; COLOR: #03c
+}
+A:active {
+	TEXT-DECORATION: none; COLOR: red
+}
+IMG {
+	BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none
+}
+.tah10 {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: Tahoma; COLOR: #6a6a6a
+}
+.tah11 {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: Tahoma; COLOR: #000000
+}
+.ver10 {
+	FONT-SIZE: 12px; TEXT-DECORATION: none; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #000000
+}
+.ver11 {
+	FONT-SIZE: 11px; TEXT-DECORATION: none; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #000000
+}
+.tah9 {
+	FONT-SIZE: 9px; TEXT-DECORATION: none; FONT-FAMILY: Tahoma; COLOR: #000000
+}
+.ver9 {
+	FONT-SIZE: 9px; TEXT-DECORATION: none; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #000000
+}
+.tahbol10 {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma; FONT-WEIGHT: bold; COLOR: #ffffff
+}
+.bottom01 {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma; COLOR: #ffffff
+}
+.gzcx01 {
+	FONT-SIZE: 12px; PADDING-TOP: 5px; PADDING-LEFT: 12px
+}
+.gzcx02 {
+	HEIGHT: 5px; MARGIN-TOP: 0px; PADDING-TOP: 0px
+}
+.tahbol11 {
+	FONT-SIZE: 12px; FONT-FAMILY: Tahoma; COLOR: #b8b8b8
+}
+.bgdown {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 50% bottom
+}
+.bgtop {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 50% top
+}
+.tah12 {
+	FONT-SIZE: 14px; TEXT-DECORATION: none; FONT-FAMILY: Tahoma; COLOR: #6a6a6a
+}

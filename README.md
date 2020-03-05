@@ -1,14 +1,22 @@
-# DSpider
+# ScrapingOutsourcing
 
-## 关于
+#### 介绍
+Scrapy爬虫项目！
 
-DSpider = Daily Spider 一直会更新平时外包爬虫项目，分享爬虫Python或者NodeJS源码程序，欢迎持续关注，欢迎Star。
+#### 软件架构
+软件主要包含一下文件夹：
 
-## 联系
+- Code文件夹主要存放代码
+- Doc文件夹主要存放文档
+- Resource主要存放资源，包括数据等。
 
+#### 使用说明
+
+- 大部分程序是基于scrapy的爬虫项目
+- scrapy程序拿来即用，支持scrapy1.8.0版本
+- 非scrapy项目可能需要配合Selenium以及谷歌浏览器
+
+#### 参与贡献
+
+- 挖掘机小王子
 - scrapy@qq.com
-
-## 注意
-
-- 本项目仅用于学习交流，切勿用于任何非法用途。
-

@@ -1,0 +1,15 @@
+1. 环境配置
+    + 最好安装Python3.6版本
+    + 安装scrapy
+        * pip install scrapy
+        * pip install pywin32
+        注意: 在安装的时候会经常出现VC++错误 需要手动安装twisted
+            https://www.lfd.uci.edu/~gohlke/pythonlibs/#twisted
+            在这个网址下载离线文件  然后安装
+2. 运行
+    + 在scrapy.cfg的同目录下运行scrapy crawl 爬虫名字
+        爬虫名字就是在该路径下运行scrapy list你看到的
+    + 你也可以运行目录下的run_spider.py文件  --> 不是太推荐
+
+3. 断点续爬的方式采集(推荐)
+    + 在scrapy.cfg的同目录下运行scrapy crawl 爬虫名字 -s JOBDIR=request_seen_1
