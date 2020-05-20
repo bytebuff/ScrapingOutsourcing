@@ -1,0 +1,15 @@
+判断是否成功与流拍的网址(其实这个网址有两个)
+https://paimai.jd.com/json/current/englishquery?paimaiId=103656032&skuId=0&t=158135&start=0&end=9 => https://paimai.jd.com/json/current/englishquery.html?paimaiId=103656032&start=0&end=9
+https://api.m.jd.com/api?loginType=3&appid=paimai&functionId=getPaimaiRealTimeData&body=%7B%22paimaiId%22%3A103656032%2C%22source%22%3A0%7D
+loginType: 3
+appid: paimai
+functionId: getPaimaiRealTimeData
+body: {"paimaiId":103656032,"source":0}
+
+#### 拍卖状态分析 这个在前端js代码逻辑里面有说明
+getOrderStatus() => 4 => '拍卖已成交，生成订单中…'
+getOrderStatus() => 0 => '拍卖已结束，流拍（未达到保留价）'
+getOrderStatus() => 1 => '拍卖已结束，拍卖已成交'
+getOrderStatus() => -1 => '拍卖已结束，流拍'
+getOrderStatus() => 5 => '拍卖已结束，拍卖已成交'
+getOrderStatus() => 3 => '尚未开始||正在进行'
